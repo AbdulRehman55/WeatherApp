@@ -1,0 +1,43 @@
+.container form{
+    margin-top:3rem;
+
+    
+}
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparsent !important;
+    color:blanchedalmond;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+    font-size: 100px;
+}
+form input.container::-webkit-input-placeholder{
+    color: white !important;
+}
+
+
+.box{
+    background: whitesmoke;
+    width: 400px;
+    margin-top: 2px;
+    padding-bottom: 2px;
+    border:1px solid grey;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.alert{
+    
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    color:red;
+    margin-top: 10px;
+}
+
+.alert .fas {
+    padding: 6px;
+    color:yellow
+}
